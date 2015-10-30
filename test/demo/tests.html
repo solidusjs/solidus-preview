@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post Preview Demo</title>
+    <script src="../../build/post-preview.js"></script>
+  </head>
+  <body>
+
+    <p>Example Post Preview</p>
+    <div id="post"></div>
+
+    <script>
+      var postPreview = new PostPreview({
+        element: '#post',
+        resource: 'http://wordpress.sparkart.com/posts/72'
+      });
+    </script>
+
+  </body>
+</html>
